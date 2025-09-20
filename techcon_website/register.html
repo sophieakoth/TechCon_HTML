@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <header>
+        <h1>Register for TechCon 2024</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li><a href="about.html">Schedule</a></li>
+                <li><a href="schedule.html">Register</a></li>
+                <li><a href="contact.html">Contact </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action ="https://httpbin.org/get" method="get" >
+            <p>
+                <label for="fullName">fullName</label>
+                <input type="text" id="fullName" name="fullName" placeholder="fullName">
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="email">
+            </p>
+            <p>
+                <label for="password">Pasword</label>
+                <input type="password" id="password" name="password" placeholder="password">
+            </p>
+            <p>
+                <label for="terms">Terms and COnditions</label>
+                
+                <article>Terms and Conditions</article>
+                <p>1. By registering, you agree to provide accurate information.</p>
+                 <p>2. You are responsible for keeping your password secure.</p>
+                 <p>3. Do not use this site for any illegal activities.</p>
+                 <p>4. All content belongs to the site owner unless otherwise stated.</p>
+                <p>5. This site is provided “as is” with no warranties.</p>
+                 <p>6. These terms may be updated from time to time.</p>
+                <input type="checkbox" id="terms" name="terms" placeholder="terms" required>
+            </p>
+        <p>
+            <button type="submit">Submit</button>
+        </p>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;Copyright TechCon  2025 Conference</p>
+    </footer>
+    
+</body>
+</html>
